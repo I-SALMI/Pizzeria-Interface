@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+<div align="center" id="top"> 
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">Pizzeria</h1>
 
-## Available Scripts
+<!-- Status -->
 
-In the project directory, you can run:
+<h4 align="center"> 
+	🚧  Pizzeria is 🚀 Under construction...  🚧
+</h4> 
 
-### `npm start`
+<hr>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center">
+  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
+  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
+  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
+   <a href="#dart-requirements">Improvements</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-starting">Starting</a>
+</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<br>
 
-### `npm test`
+## :dart: About ##
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The following is an API containing the basic CRUD operation necessary to run a web application to manage a pizzeria: Pizzas, Ingredients and prices. Accompanied by a react web app that is ready to be configured to run the consume the API
 
-### `npm run build`
+## :sparkles: Features ##
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- CRUD pizza\
+- CRUD pizza ingredient\
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## :rocket: Technologies ##
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The following tools were used in this project:
 
-### `npm run eject`
+- [Node.js](https://nodejs.org/en/)
+- [Express.js](https://expressjs.com/)
+- [React](https://pt-br.reactjs.org/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## :white_check_mark: Requirements ##
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Before starting , you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## :dart: Improvements ##
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- The current interface is not connected to the API, I couldn't complete that part due to insufficient time. It is however ready to be configured for the basic CRUD operations for a pizza.
+- Another improvement would be to add to the interface the elements to execute CRUD operations on the ingredients as well
+- We can also personalize the interface to show more detailed informations about each pizza and to enable us to add ingredients while creating a pizza
 
-## Learn More
+## :checkered_flag: Starting ##
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+# Clone this project
+$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/gdcexo
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Access
+$ cd pizzeria/API
 
-### Code Splitting
+# Install dependencies
+$ npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Run the project
+$ npm start
 
-### Analyzing the Bundle Size
+# The server will initialize in the <http://localhost:3000>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Database informations
+Enter the details for your own databse in `server.js` if you wish to use a different database
+# The default database for this project is the local MongoDB
 
-### Making a Progressive Web App
+#Interface installation
+$ cd pizzeria/interface
+$ npm install
+$ npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<a href="#top">Back to top</a>
