@@ -23,7 +23,7 @@
 
 ## :dart: About ##
 
-The following is a react web app that is ready to be configured to run the consume the Pizzeria API
+The following is a react web app that is ready to be configured to consume the Pizzeria API
 
 ## :rocket: Technologies ##
 
