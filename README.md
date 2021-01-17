@@ -13,7 +13,6 @@
 
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
    <a href="#dart-requirements">Improvements</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
@@ -24,19 +23,12 @@
 
 ## :dart: About ##
 
-The following is an API containing the basic CRUD operation necessary to run a web application to manage a pizzeria: Pizzas, Ingredients and prices. Accompanied by a react web app that is ready to be configured to run the consume the API
-
-## :sparkles: Features ##
-
-- CRUD pizza\
-- CRUD pizza ingredient\
+The following is a react web app that is ready to be configured to run the consume the Pizzeria API
 
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
 
-- [Node.js](https://nodejs.org/en/)
-- [Express.js](https://expressjs.com/)
 - [React](https://pt-br.reactjs.org/)
 
 ## :white_check_mark: Requirements ##
@@ -53,26 +45,15 @@ Before starting , you need to have [Git](https://git-scm.com) and [Node](https:/
 
 ```bash
 # Clone this project
-$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/gdcexo
+$ git clone https://github.com/I-SALMI/Pizzeria-Interface.git
 
 # Access
-$ cd pizzeria/API
+$ cd Pizzeria-interface
 
 # Install dependencies
 $ npm install
 
 # Run the project
-$ npm start
-
-# The server will initialize in the <http://localhost:3000>
-
-# Database informations
-Enter the details for your own databse in `server.js` if you wish to use a different database
-# The default database for this project is the local MongoDB
-
-#Interface installation
-$ cd pizzeria/interface
-$ npm install
 $ npm start
 ```
 
